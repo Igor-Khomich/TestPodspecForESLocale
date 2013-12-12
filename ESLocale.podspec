@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
     
   s.ios.frameworks = 'Foundation'
   s.ios.libraries = 'sqlite3', 'c++', 'stdc++'
-  
+  s.ios.requires_arc = true
 end
